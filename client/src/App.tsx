@@ -5,6 +5,7 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Aboutus from "./components/Aboutus";
 import Blog from "./components/Blog";
+import Dashboard from "./components/dashboard/Dashboard";
 
 const routeConfig = [
   { path: "/aboutus", element: <Aboutus /> },
@@ -16,6 +17,7 @@ const routeConfig = [
   { path: "/product/:id", element: <ProductsDetail /> },
   { path: "/signin", element: <SignIn /> },
   { path: "/signup", element: <SignUp /> },
+  { path: "/admin", element: <Dashboard /> },
 ];
 
 function App() {
